@@ -6,5 +6,10 @@
         "discord",
         "bot",
         "python"
-    ]
+    ],
+    "env": {
+        "DISCORD_TOKEN": {
+            "description": "Discord botのtokenをここに貼る"
+        }
+    }
 }
