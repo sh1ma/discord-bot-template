@@ -6,7 +6,7 @@ class Hello(Cog):
         self.bot = bot
 
     @command()
-    def hello(self, ctx: Context):
+    async def hello(self, ctx: Context):
         ctx.send("hello")
 
 
